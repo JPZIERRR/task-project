@@ -1,0 +1,152 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.1rem solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #db4c3f;
+  color: #fff;
+}
+
+.logo {
+  font-size: 2rem;
+  margin: 0.7rem 5rem;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+.navbar ul li {
+  margin-right: 5rem;
+  padding: 1rem;
+}
+
+.navbar ul li a {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+
+.container {
+  max-width: 45rem;
+  margin: 2em auto;
+  font-size: 1.5rem;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.form-control input,
+.form-control textarea {
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+  border: 0.1rem solid #ccc;
+}
+
+.submit-btn-form {
+  padding: 0.5rem 2rem;
+  border-radius: 3rem;
+  background-color: #fff;
+  border: 0.2rem solid #db4c3f;
+  transition: all 400ms ease-in-out;
+}
+
+.submit-btn-form:hover {
+  color: #fff;
+  background-color: #db4c3f;
+}
+
+.task-list {
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.task-list li {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 0.1rem solid #efefef;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-list .title {
+  font-weight: bold;
+  color: #db4c3f;
+  transition: 0.5s;
+  font-size: 1.5rem;
+}
+
+.task-list .title:hover {
+  color: #333;
+}
+
+.title-done {
+  text-decoration: line-through;
+  color: #ccc;
+  font-size: 1.5rem;
+}
+
+.actions {
+  display: flex;
+}
+
+.actions i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #333;
+}
+
+.actions form {
+  margin: 0;
+}
+
+.actions button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#delete-icon:hover {
+  color: #eb1400;
+}
+
+#complete-icon:hover {
+  color: #01b92f;
+}
+
+#edit-icon:hover {
+  color: #1600b9;
+}
